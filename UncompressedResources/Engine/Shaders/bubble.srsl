@@ -1,0 +1,30 @@
+ShaderType Spatial;
+
+PolygonMode Fill;
+CullMode Back;
+DepthCompare LessOrEqual;
+PrimitiveTopology TriangleList;
+BlendEnabled true;
+DepthWrite false;
+DepthTest true;
+
+#include <Engine/Shaders/Common/utils.srsl>
+
+[[uniform], [public]] sampler2D NoiseTex;
+[[uniform], [public]] vec3 BubbleColor;
+[[uniform], [public]] float NoiseSampleSize;
+[[uniform], [public]] float AnimationSpeed;
+[[uniform], [public]] float HeightMultiplier;
+
+void fragment() {
+    vec3 viewDirectionWorld = (VIEW_MATRIX * vec4(VIEW_DIRECTION, 0)).xyz;
+	vec3 normalWorld = (VIEW_MATRIX * vec4(NORMAL, 0.0)).xyz;
+
+	COLOR = vec4(BubbleColor, Fresnel(viewDirectionWorld, normalWorld));
+}
+
+void vertex() {
+	float height = texture(NoiseTex, VERTEX.xz * NoiseSampleSize + vec2(TIME) * AnimationSpeed).r;
+	VERTEX += height * HeightMultiplier;
+    OUT_POSITION = PROJECTION_MATRIX * VIEW_MATRIX * MODEL_MATRIX * vec4(VERTEX, 1.0);
+}

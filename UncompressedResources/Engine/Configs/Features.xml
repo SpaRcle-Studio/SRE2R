@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Features>
+   <Common>
+       <ResourceUsePointStackTraceProfiling Value="false"/>
+
+       <EvoCompiler Value="true"/>
+       <CompilePDB Value="false"/>
+       <ScriptMultiInstances Value="false"/>
+
+       <UpdateScripts Value="false"/>
+       <UseEditorGUIScript Value="false"/>
+       <ColorBufferPick Value="true"/>
+
+       <CrashHandler Value="false"/>
+       <SegmentationHandler Value="false"/>
+
+       <Gizmo Value="true"/>
+       <Tracy Value="false"/>
+       <FileWatching Value="true"/>
+
+       <ChunkSystem Value="true"/>
+
+       <ImGUI Value="true"/>
+       <Editor Value="true"/>
+       <EditorOnStartup Value="true"/>
+       <EditorCamera Value="true"/>
+       <EditorWidgetsDocking Value="true"/>
+       <InputIgnoreNonFocusedWidgets Value="true"/>
+       <UpdateNonHoveredSceneViewer Value="false"/>
+
+       <AutoReloadResources Value="true"/>
+
+       <RayTracing Value="false"/>
+
+       <AccumulateDt Value="true"/>
+
+       <FastModelsLoad Value="true"/>
+
+       <Renderer Value="true"/>
+       <Physics Value="true"/>
+
+       <PVD Value="false"/>
+
+       <Vehicles Value="true"/>
+
+       <LoadSkybox Value="false"/>
+       <Multisampling Value="true"/>
+       <SkyboxCPUUsage Value="false"/>
+       <VulkanValidation Value="true"/>
+       <MultiRenderTargets Value="false"/>
+       <SingleUBOIdentifierMode Value="false"/>
+       <Undocking Value="true"/>
+   </Common>
+</Features>

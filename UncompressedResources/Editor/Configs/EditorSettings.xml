@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Settings>
+    <RenderTechnique Path="Editor/Configs/EditorCascadedShadowMapRenderTechnique.xml"/>
+	<PrefabRenderTechnique Path="Editor/Configs/EditorCascadedShadowMapRenderTechnique.xml"/>
+    <!--<RenderTechnique Path="Editor/Configs/EditorColorBufferRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorVarianceShadowMapRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorCascadedShadowMapRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorShadowMapRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorSimpleRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorVignetteRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorSSAORenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorEmptySwapchainRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorRayMarchingRenderTechnique.xml"/>-->
+    <!--<RenderTechnique Path="Editor/Configs/EditorRenderTechnique.xml"/>-->
+    <DebugChunks Bool="false"/>
+    <Icons Type="Custom">
+        <Pair First="Unknown" Second="Editor/Textures/unknown.png"/>
+        <Pair First="Material" Second="Editor/Textures/material.png"/>
+        <Pair First="File" Second="Editor/Textures/file.png"/>
+        <Pair First="Folder" Second="Editor/Textures/folder.png"/>
+        <Pair First="EmptyFolder" Second="Editor/Textures/empty_folder.png"/>
+        <Pair First="Script" Second="Editor/Textures/script.png"/>
+        <Pair First="Reset" Second="Editor/Textures/reset.png"/>
+        <Pair First="Shapes" Second="Editor/Textures/shapes.png"/>
+        <Pair First="ZIP" Second="Editor/Textures/zip.png"/>
+        <Pair First="JPG" Second="Editor/Textures/jpg.png"/>
+        <Pair First="TXT" Second="Editor/Textures/txt.png"/>
+        <Pair First="XML" Second="Editor/Textures/xml.png"/>
+        <Pair First="PNG" Second="Editor/Textures/png.png"/>
+        <Pair First="DLL" Second="Editor/Textures/dll.png"/>
+        <Pair First="Game" Second="Editor/Textures/game.png"/>
+        <Pair First="Play" Second="Editor/Textures/play-colored.png"/>
+        <Pair First="Stop" Second="Editor/Textures/stop.png"/>
+        <Pair First="Pause" Second="Editor/Textures/pause-active.png"/>
+        <Pair First="PauseActive" Second="Editor/Textures/pause.png"/>
+        <Pair First="Back" Second="Editor/Textures/back.png"/>
+        <Pair First="Font" Second="Editor/Textures/font.png"/>
+        <Pair First="Audio" Second="Editor/Textures/audio.png"/>
+    </Icons>
+</Settings>

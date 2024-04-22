@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Technique Name="CascadedShadowMap">
+    <Include Path="Engine/Passes/ColorBufferPass.xml"/>
+    <Include Path="Engine/Passes/CascadedShadowMapPass.xml"/>
+    <Include Path="Engine/Passes/DefaultSceneViewPass.xml"/>
+    <Queues>
+        <Queue>
+            <Pass Name="ShadowMap"/>
+        </Queue>
+        <Queue>
+            <Pass Name="ColorBufferPass"/>
+            <Pass Name="SceneView"/>
+        </Queue>
+    </Queues>
+</Technique>
